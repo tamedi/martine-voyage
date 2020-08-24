@@ -1,0 +1,71 @@
+/*header*/
+
+.wrapper {
+  margin: 0 auto;
+  width: 980px;
+
+  /*le logo*/
+
+  .logo {
+    width: 200px;
+    position: absolute;
+  }
+  /*Menu*/
+
+  .wrapper nav {
+    display: inline;
+  }
+  nav ul {
+    list-style-type: none;
+    display: inline;
+    font-family: "Lexend Tera", sans-serif;
+    font-weight: bold;
+  }
+  nav ul li {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  nav .dropDown ul {
+    display: none;
+    /* position: absolute;*/
+  }
+  nav .dropDown:hover .dropDownChild {
+    display: block;
+    position: absolute;
+  }
+
+  .dropDownChild a {
+    display: block;
+    cursor: pointer;
+  }
+  /*home image*/
+
+  .homeImage img {
+    /* position: absolute;*/
+    width: 980px;
+    margin-top: 48px;
+  }
+
+  /*barre de recherche*/
+  .barreDeRecherche {
+    margin-left: 280px;
+    /*position: absolute;*/
+    top: 500px;
+  }
+
+  #recherche {
+    /* position: absolute;*/
+    margin-top: 20px;
+
+    width: 450px;
+    height: 40px;
+  }
+  /*button*/
+  .buttonDeRecherche {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+  }
+}

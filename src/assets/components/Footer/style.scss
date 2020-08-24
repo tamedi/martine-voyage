@@ -1,0 +1,38 @@
+.footer {
+  color: white;
+  .block {
+    text-align: center;
+  }
+  .footer-contact {
+    background-color: lightblue;
+    height: 200px;
+    padding-bottom: 2%;
+  }
+
+  .footer-contact h2 {
+    text-align: center;
+    padding-top: 3%;
+  }
+
+  .colonne {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    text-align: center;
+  }
+
+  .footer-infos {
+    text-align: center;
+    padding: 20px;
+    background-color: skyblue;
+
+    img {
+      width: 10%;
+    }
+  }
+
+  .fab {
+    color: white;
+    margin: 10px;
+  }
+}

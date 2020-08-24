@@ -1,0 +1,41 @@
+/**
+* Feuille de style - Vignette produit
+*/
+
+.vignette-produit {
+  display: inline-block;
+  margin: 10px;
+  box-shadow: 3px 3px 3px grey;
+
+  .img-vignette {
+    position: relative;
+    max-width: 600px;
+    z-index: 1;
+  }
+  .texte-vignette {
+    margin-left: 20px;
+    margin-right: 20%;
+    text-align: left;
+    max-width: 580px;
+  }
+  .bouton-vignette {
+    padding: 10px;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    margin-left: 80%;
+    margin-bottom: 20px;
+  }
+
+  .price-tag {
+    padding: 10px;
+    background-color: lightblue;
+    border: none;
+
+    z-index: 2;
+    margin-left: 80%;
+    margin-bottom: -30px;
+    margin-top: -10px;
+  }
+}

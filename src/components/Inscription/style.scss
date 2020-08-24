@@ -1,0 +1,46 @@
+/*les identifiants*/
+.wrapper {
+  .identifiants {
+    width: 550px;
+    padding-left: 30px;
+    margin: auto;
+    background-color: rgba(200, 200, 200, 0.3);
+  }
+
+  /*les input*/
+
+  .identifiants input {
+    width: 500px;
+    height: 35px;
+  }
+  #conditions {
+    width: 15px;
+    height: 15px;
+    font-size: smaller;
+  }
+  /*le boutton*/
+  .identifiants button {
+    font-size: 20px;
+    background-color: auto;
+    background-color: lightblue;
+    width: 510px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  h3 {
+    text-align: center;
+    padding: 10px;
+    color: rgb(130, 193, 214);
+  }
+  .asterisque {
+    font-size: smaller;
+  }
+  .CGU {
+    font-size: smaller;
+  }
+}

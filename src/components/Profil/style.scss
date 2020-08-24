@@ -1,0 +1,41 @@
+/*les identifiants*/
+.blocProfil {
+  .identifiants {
+    width: 550px;
+    padding-left: 30px;
+    margin: auto;
+    background-color: #f2f2f2;
+  }
+
+  /*les input*/
+
+  .identifiants input {
+    width: 500px;
+    height: 35px;
+  }
+  #conditions {
+    width: 15px;
+    height: 15px;
+  }
+  /*le boutton*/
+  .identifiants button {
+    font-size: 20px;
+    background-color: auto;
+    background-color: lightblue;
+    width: 510px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  h3 {
+    text-align: center;
+    padding: 10px;
+  }
+  .para {
+    text-align: center;
+  }
+}

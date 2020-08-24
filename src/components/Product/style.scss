@@ -1,0 +1,46 @@
+.product {
+  @import "~react-image-gallery/styles/scss/image-gallery.scss";
+  .product-infos {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+  }
+  .product-image,
+  .product-detail {
+    flex: 1;
+  }
+
+  .product-image {
+    object-fit: contain;
+    max-width: 50%;
+    margin-right: 50px;
+  }
+
+  .product-description {
+    text-align: justify;
+  }
+
+  .product-price {
+    text-align: right;
+    font-size: 40px;
+    margin: 10px;
+  }
+  .product-valid {
+    float: right;
+    padding: 10px;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+  }
+  .product-date,
+  .nbr-produit input {
+    margin: 10px;
+  }
+  .suggestion {
+    text-align: center;
+  }
+  .informations {
+    margin: 50px 200px;
+    text-align: justify;
+  }
+}

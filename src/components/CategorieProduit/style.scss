@@ -1,0 +1,40 @@
+.wrapper {
+  .categorieProduitTitre {
+    text-align: center;
+    background-color: lightblue;
+    font-family: "Lexend Tera", sans-serif;
+    color: #fff;
+  }
+  /*texte */
+
+  .categorieProduitTexte p {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 50px;
+    font-size: 20px;
+    font-family: "Lexend Tera", sans-serif;
+  }
+  /*barre de recherche*/
+  .categorieProduitTitre {
+    text-align: center;
+    margin: auto;
+  }
+
+  /*categorie produit- texte du bas*/
+
+  .categorieProduitTexteDuBas p {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 50px;
+    font-size: 20px;
+    font-family: "Lexend Tera", sans-serif;
+  }
+
+  /*contenaire des vigntte*/
+
+  .vignette-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}

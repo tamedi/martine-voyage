@@ -1,0 +1,26 @@
+renderTableData() {
+      return this.state.profil.order.map( => {
+         const { travel_name travellers_number total_price travel_price } = student //destructuring
+         return (
+            <tr key={id}>
+               <td>{travel_name}</td>
+               <td>{travellers_number }</td>
+               <td>{total_price}</td>
+               <td>{travel_price}</td>
+            </tr>
+         )
+      })
+   }
+
+   render() {
+      return (
+         <div>
+            <h1 id='title'>React Dynamic Table</h1>
+            <table id='order'>
+               <tbody>
+                  {this.renderTableData()}
+               </tbody>
+            </table>
+         </div>
+      )
+   }
